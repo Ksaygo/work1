@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="ffmpeg-4.2.1-1.5.2-windows-x86">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/javaCV依赖/ffmpeg-4.2.1-1.5.2-windows-x86.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javaCV依赖/ffmpeg-4.2.1-1.5.2-windows-x86_64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javaCV依赖/ffmpeg-4.2.1-1.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javaCV依赖/javacpp-1.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javaCV依赖/javacv-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

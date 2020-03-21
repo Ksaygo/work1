@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <h1 id = "title" onclick="fun()">11111</h1>
+    <h1 id = "title2">22222</h1>
+    <input id="openBtn" type="button" value="点我啊">
+    <input id="closeBtn" type="button" value="关闭窗口">
+    <script>
+
+        /*var id = setInterval(fun3,2000);
+        function fun3() {
+            alert("主人！")
+        }*/
+        clearInterval(id);
+        /*setTimeout(fun1,2000);
+        function fun1() {
+            alert('boom...')
+        }*/
+
+
+
+        /*var newW;
+        var openBtn = document.getElementById("openBtn");
+        openBtn.onclick=function () {
+           newW =  open("http://106.15.196.212:8080/");
+        }
+
+        var closeW = document.getElementById("closeBtn");
+        closeW.onclick=function () {
+            newW.close();
+        }*/
+
+        /*var str = prompt("你喜欢我吗？1喜欢 2不喜欢");
+        if (str==1){
+            alert("我也喜欢你！")
+        }
+        if (str==2){
+            alert("好伤心啊！不理你了！")
+            close();//关闭窗口
+        }*/
+
+        // alert("hello!");
+        // window.alert("我是window！");
+        // var flag = confirm("您确认要退出吗？");
+        // if (flag){
+        //     alert("欢迎再次光临！");
+        // } else {
+        //     alert("年轻人，手别抖！");
+        // }
+
+        function fun() {
+            alert("我被点了");
+        }
+
+        var fun2 = function(){
+            alert("咋老点我呀！")
+        }
+        var elementById = document.getElementById("title2");
+        elementById.onclick = fun2;
+
+        alert("我要换内容了！");
+        var t1 = document.getElementById("title");
+        t1.innerText = "不识";
+
+    </script>
+</body>
+</html>
